@@ -73,7 +73,7 @@ module Nestful
            EOFError,
            Net::HTTPBadResponse,
            Net::HTTPHeaderSyntaxError,
-           Net::HTTPServerException,
+           Net::HTTPClientException,
            Net::ProtocolError,
            Errno::ECONNABORTED,
            Errno::ECONNREFUSED,
